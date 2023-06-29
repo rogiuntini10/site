@@ -1,0 +1,14 @@
+::before
+::after
+ul li {
+    position: relative;
+  }
+  
+  ul li::before {
+    content: "•";
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    color: rgb(0, 17, 255);
+  }
+  
